@@ -12,7 +12,7 @@ class XylophoneApp extends StatelessWidget {
    buildButton({Color? color, int? sono,String? txt}) {
     return Expanded(
       child: FlatButton(
-        child: Text(txt ?? ''),
+        child: Text(txt ?? '' ),
         color: color,
         onPressed: () {
           playSound(sono);
@@ -20,7 +20,7 @@ class XylophoneApp extends StatelessWidget {
       ),
     );
   }
-
+//?? 0.0 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
